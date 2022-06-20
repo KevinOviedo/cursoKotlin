@@ -21,12 +21,21 @@ class DogListActivity : AppCompatActivity() {
         recycler.layoutManager = LinearLayoutManager(this)
 
         val adapter = DogAdapter()
+
+        adapter.setOnItemClickListener{
+            //pasar el dog a goddetailactivity
+
+
+        }
+
         recycler.adapter = adapter
 
         dogListViewModel.dogList.observe(this){
             dogList->
             adapter.submitList(dogList)
         }
+
+
     }
 
 
