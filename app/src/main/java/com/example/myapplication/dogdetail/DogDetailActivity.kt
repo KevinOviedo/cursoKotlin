@@ -3,6 +3,7 @@ package com.example.myapplication.dogdetail
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import coil.load
 import com.example.myapplication.Dog
 import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityDogDetailBinding
@@ -29,5 +30,9 @@ class DogDetailActivity : AppCompatActivity() {
         binding.dogIndex.text = getString(R.string.dog_index_format,dog.index)
         binding.lifeExpectancy.text = getString(R.string.dog_life, dog.lifeExpectancy)
         binding.dog = dog
+        binding.dogImage.load(dog.imageUrl)
+        binding.closeButton.setOnClickListener{
+            finish()
+        }
     }
 }
