@@ -38,7 +38,7 @@ class DogAdapter : ListAdapter<Dog, DogAdapter.DogViewHolder>(DiffCallback) {
         dogViewHolder.bin(dog)
     }
 
-    inner class DogViewHolder(val binding: DogListItemBinding) :
+    inner class DogViewHolder(private val binding: DogListItemBinding) :
         RecyclerView.ViewHolder(binding.root){
 
             fun bin(dog: Dog){

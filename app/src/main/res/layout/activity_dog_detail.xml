@@ -6,7 +6,7 @@
 
         <variable
             name="dog"
-            type="com.hackaprende.dogedex.Dog" />
+            type="com.example.myapplication.Dog" />
     </data>
 
     <FrameLayout
@@ -171,7 +171,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
-                                android:text="@{dog.heightFemale}"
+
                                 tools:text="35 - 37 cm" />
 
                             <TextView
@@ -251,7 +251,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
-                                android:text="@{dog.heightMale}"
+
                                 tools:text="37 - 40 cm" />
 
                             <TextView

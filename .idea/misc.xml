@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/User/MyApplication/app/src/main/res/drawable-v24/detail_info_background.xml" value="0.1" />
         <entry key="..\:/User/MyApplication/app/src/main/res/drawable-v24/ic_check_black.xml" value="0.136" />
         <entry key="..\:/User/MyApplication/app/src/main/res/drawable-v24/ic_hearth_white.xml" value="0.136" />
         <entry key="..\:/User/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1445" />
         <entry key="..\:/User/MyApplication/app/src/main/res/drawable-v24/progressbar_background.xml" value="0.136" />
+        <entry key="..\:/User/MyApplication/app/src/main/res/drawable-v24/red_circle.xml" value="0.1" />
         <entry key="..\:/User/MyApplication/app/src/main/res/drawable/ic_check_black.xml" value="0.136" />
         <entry key="..\:/User/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1445" />
-        <entry key="..\:/User/MyApplication/app/src/main/res/layout/activity_dog_detail.xml" value="0.2604166666666667" />
+        <entry key="..\:/User/MyApplication/app/src/main/res/layout/activity_dog_detail.xml" value="0.1" />
         <entry key="..\:/User/MyApplication/app/src/main/res/layout/activity_dog_list.xml" value="0.27291666666666664" />
         <entry key="..\:/User/MyApplication/app/src/main/res/layout/activity_dogdetail.xml" value="0.2604166666666667" />
         <entry key="..\:/User/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
